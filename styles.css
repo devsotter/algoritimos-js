@@ -13,12 +13,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
 }
 h1 {
     background-color: #505050;
     color: white;
     padding: 5px;
+    margin: 10px;
     border-radius: 5px;
+    font-size: 2em;
 }
 
