@@ -1,5 +1,9 @@
-function somar(a, b) {
-  return(a + b);
+function somarNumeros(a, b) {
+  return a + b;
 }
 
-console.log(somar(10, 4))
+
+var resultado = somarNumeros(5, 3);
+console.log(resultado);
+
+
