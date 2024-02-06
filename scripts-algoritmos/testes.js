@@ -1,14 +1,11 @@
-function gerarFibonacci(n) {
-    var sequencia = [0, 1];
-  
-    for (var i = 2; i < n; i++) {
-      var proximoNumero = sequencia[i - 1] + sequencia[i - 2];
-      sequencia.push(proximoNumero);
-    }
-  
-    console.log("Sequência de Fibonacci com os primeiros " + n + " números:");
-    console.log(sequencia.join(', '));
-  }
-  
-  gerarFibonacci(8);s
-  
+function calcularMedia(listaNumeros) {
+  const soma = listaNumeros.reduce((acc, curr) => acc + curr, 0); // Calcula a soma dos números usando o método reduce
+
+  const contagem = listaNumeros.length; // Obtém o número total de elementos na lista de números
+
+  const media = soma / contagem; // Calcula a média dividindo a soma pelo número total de elementos
+
+  return media; // Retorna a média calculada
+}
+
+console.log(calcularMedia([1, 2, 3, 4, 5, 6])); // Chama a função e imprime o resultado
