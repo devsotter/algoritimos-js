@@ -6,7 +6,7 @@
       return 1;
     }
     else {
-      return n * calcularFatorial(n - 1);z
+      return n * calcularFatorial(n - 1);
     }
   } 
 
