@@ -15,3 +15,24 @@ function contarNumerosPares(lista) {
   console.log("O número de números pares é:", contarNumerosPares(numeros)); // Deve imprimir "O número de números pares é: 4"
   
 
+//mesmo codigo, mas criando uma lista de de pares em um array
+
+function listaNumeros(numeros) {
+  const pares = [];
+
+  for (let i = 0; i < numeros.length; i++) {
+      if(numeros[i] % 2 === 0) {
+       pares.push(numeros[i]);
+
+      }   
+  }
+
+  
+  if ( pares.length === 0){
+      return 'não tem pares'
+     }
+
+  return pares
+}
+
+console.log(listaNumeros([32,3,4,1]));
