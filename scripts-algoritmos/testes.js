@@ -1,11 +1,3 @@
-class Pessoa {
-    constructor(nome, idade) {
-        this.nome = nome;
-        this.idade = idade;
-
-    }
-
+function diagonalDifference(arr) {
 
 }
-
-const valdecir = new Pessoa(Valdecir, 29);
